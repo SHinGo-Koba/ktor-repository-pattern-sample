@@ -65,4 +65,5 @@ dependencies {
     testImplementation("io.ktor:ktor-server-tests-jvm")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
     //endregion
+    implementation("io.ktor:ktor-server-swagger:2.3.10")
 }
